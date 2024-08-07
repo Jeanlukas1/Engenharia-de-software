@@ -1,0 +1,73 @@
+print('''Você está no campo com a sua esposa Astrid fazendo a colheita, e seus amigos guerreiros te chamam para ir ao bar,
+dizendo que precisam falar com você algo importante. ''')
+print('''
+      
+      [1] ir ao bar
+      [2] ficar com astrid
+      
+      ''')
+escolha = input('Sua escolha')
+if escolha == '1':
+    print('Você foi ao bar e sentou-se com seus amigos. \nChegando lá um de seus amigos Seagurd conta que o lord Garric (o lord Garric é o lord de kattegat, um líder incompetente e sem visão) \nimpediu que os gurreiros fossem em uma expedição que com certeza traria bastante recursos para Kattegat.')
+    print('você olha para todos os geurreiros que estavam alí e diz: "EU CONVOCO TODOS OS GUERREIROS DE KATTEGAT QUE VENHAM COMIGO AMANHÂ PARA O MAR, ACHAR TERRA TENHO CERTEZA QUE AONDE ENCORARMOS O NOSSO BARCO SEREMOS VITORIOSOS!!!!!!! "')
+    print('todos os guerreiro te apoiaram e gritaram com bravura: "AHHHHHHHHHH VAMOSSSS!!!!!!"')
+    
+elif escolha == '2':
+    print('mas você ficou no campo com a Astrid, ajudando a terminar o dia de colheita! \nA noite vem, você esta deitado na cama é possível ver as estrelas no céu')
+    print('''
+      [1] ir dormir
+      [2] continuar olhando as estrelas
+          ''')
+    escolha_2 = input('Sua escolha: ')
+    if escolha_2 == '1':
+          print('Você dormiu!! ')
+          print('Um novo dia começa o sol está brilhando!!!! \nVocê passa pela cidade de manhã e encontra o seu amigo seagurd, e o chama para ir conversar com o lord Garric (o lord Garric é o lord de kattegat, um líder incompetente e sem visão). \nNo caminho você passa na frente da cabana de um vidente....')
+          print('''
+      [1] ir conversar com o lord Garric
+      [2] entrar na cabana do vidente
+                ''')
+          escolha_3 = input("Sua escolha: ")
+          if escolha_3 == '1':
+                print('Você chegou na casa do lord Garric, ele te convida para sentar-se')
+                print('''
+      [1] Sentar
+      [2] ficar em pé
+                      ''')
+                escolha_4 = input('Sua escolha: ')
+                if escolha_4 == '1':
+                      print('Você se sentou olhando para o lord Garric, ele fica um pouco desconfortável e logo pergunta: "oque quer meu caro Ragnar?" \nVocê diz em um tom alto: "Quando vamos para a expedição?" \nele diz com um voz sarcástica: "nunca, e eu ja te falei o porque, agora vá" \nVocê ri dizendo: "Você vai se arrepender disso, você sabe que lá fora existem reinos, povos e tesouros escondidos esperando alguém achar, porém a sua visão limitada te impede de exergar tal riqueza " \nDepois disso você voltou pra casa e armou um plano com os guerreiros de kattegat, com a intenção de pegar os barcos escondido e viajar')
+                elif escolha_4 == '2':
+                      print('Você fica em pé demonstrando superioridade ele fica um pouco desconfortável e logo pergunta: "oque quer meu caro Ragnar?" \nVocê diz em um tom alto: "Quando vamos para a expedição?" \nele diz com um voz sarcástica: "nunca, e eu ja te falei o porque, agora vá" \nVocê ri dizendo: "Você vai se arrepender disso, você sabe que lá fora existem reinos, povos e tesouros escondidos esperando alguém achar, porém a sua visão limitada te impede de exergar tal riqueza " \nDepois disso você voltou pra casa e armou um plano com os guerreiros de kattegat, com a intenção de pegar os barcos escondido e viajar')
+          elif escolha_3 == '2':
+            print("Você entrou na cabana do vidente!!!")
+ 
+    elif escolha_2 == '2':
+          print('Enquanto olhava para as estrelas você lembrava da histórias que seu pai contava......')
+          print('Um novo dia começa o sol está brilhando!!!! \nVocê passa pela cidade de manhã e encontra o seu amigo seagurd, \ne o chama para ir conversar com o lord Garric (o lord Garric é o lord de kattegat, um líder incompetente e sem visão). \nNo caminho você passa na frente da cabana de um vidente....')
+          print('''
+      [1] ir conversar com o lord Garric
+      [2] entrar na cabana do vidente
+                ''')
+          escolha_3 = input("Sua escolha: ")
+          if escolha_3 == '1':
+                print('Você chegou na casa do lord Garric, ele te convida para sentar-se')
+                print('''
+      [1] Sentar
+      [2] ficar em pé
+                      ''')
+                escolha_4 = input('Sua escolha: ')
+                if escolha_4 == '1':
+                      print('Você se sentou olhando para o lord Garric, ele fica um pouco desconfortável e logo pergunta: "oque quer meu caro Ragnar?" \nVocê diz em um tom alto: "Quando vamos para a expedição?" \nele diz com um voz sarcástica: "nunca, e eu ja te falei o porque, agora vá" \nVocê ri dizendo: "Você vai se arrepender disso, você sabe que lá fora existem reinos, povos e tesouros escondidos esperando alguém achar, porém a sua visão limitada te impede de exergar tal riqueza " \nDepois disso você voltou pra casa e armou um plano com os guerreiros de kattegat, com a intenção de pegar os barcos escondido e viajar')
+                elif escolha_4 == '2':
+                      print('Você fica em pé demonstrando superioridade ele fica um pouco desconfortável e logo pergunta: "oque quer meu caro Ragnar?" \nVocê diz em um tom alto: "Quando vamos para a expedição?" \nele diz com um voz sarcástica: "nunca, e eu ja te falei o porque, agora vá" \nVocê ri dizendo: "Você vai se arrepender disso, você sabe que lá fora existem reinos, povos e tesouros escondidos esperando alguém achar, porém a sua visão limitada te impede de exergar tal riqueza " \nDepois disso você voltou pra casa e armou um plano com os guerreiros de kattegat, com a intenção de pegar os barcos escondido e viajar')
+          elif escolha_3 == '2':
+            print("Você entrou na cabana do vidente!!!")
+            pergunta = input("Faça uma pergunta para o vidente: ")
+            print('ele diz: "Eu vejo um corvo, e o corvo é você e esse corvo está com uma planta na boca. \nIsto é tudo que os Deuses me permitem falar."')
+            print('Ele estende a mão e você a lambe (isto é um sinal de reverência)')
+            print('Depois disso você vai conversar com o lord Gorric.')
+            print('Você fica em pé demonstrando superioridade ele fica um pouco desconfortável e logo pergunta: "oque quer meu caro Ragnar?" \nVocê diz em um tom alto: "Quando vamos para a expedição?" \nele diz com um voz sarcástica: "nunca, e eu ja te falei o porque, agora vá" \nVocê ri dizendo: "Você vai se arrepender disso, você sabe que lá fora existem reinos, povos e tesouros escondidos esperando alguém achar, porém a sua visão limitada te impede de exergar tal riqueza " \nDepois disso você voltou pra casa e armou um plano com os guerreiros de kattegat, com a intenção de pegar os barcos escondido e viajar')
+             
+            
+else:
+    print('Errado Digite novamente!!!')
